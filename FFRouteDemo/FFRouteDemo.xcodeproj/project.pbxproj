@@ -8,24 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		76FA540921D5ED250031EDD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA540821D5ED250031EDD4 /* AppDelegate.m */; };
-		76FA540C21D5ED250031EDD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA540B21D5ED250031EDD4 /* ViewController.m */; };
-		76FA540F21D5ED250031EDD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FA540D21D5ED250031EDD4 /* Main.storyboard */; };
 		76FA541121D5ED260031EDD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FA541021D5ED260031EDD4 /* Assets.xcassets */; };
 		76FA541421D5ED260031EDD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FA541221D5ED260031EDD4 /* LaunchScreen.storyboard */; };
 		76FA541721D5ED260031EDD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA541621D5ED260031EDD4 /* main.m */; };
+		76FA542721D5ED730031EDD4 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA541F21D5ED720031EDD4 /* WebViewJavascriptBridgeBase.m */; };
+		76FA542821D5ED730031EDD4 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA542321D5ED720031EDD4 /* WKWebViewJavascriptBridge.m */; };
+		76FA542921D5ED730031EDD4 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA542521D5ED720031EDD4 /* WebViewJavascriptBridge.m */; };
+		76FA542A21D5ED730031EDD4 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA542621D5ED720031EDD4 /* WebViewJavascriptBridge_JS.m */; };
+		76FA543A21D5EDDB0031EDD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FA543721D5EDDB0031EDD4 /* Main.storyboard */; };
+		76FA543B21D5EDDB0031EDD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA543921D5EDDB0031EDD4 /* ViewController.m */; };
+		76FA543F21D5EDF10031EDD4 /* SecondeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA543C21D5EDF10031EDD4 /* SecondeVC.m */; };
+		76FA544021D5EDF10031EDD4 /* SecondeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76FA543E21D5EDF10031EDD4 /* SecondeVC.xib */; };
+		76FA544421D5EE000031EDD4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA544221D5EDFF0031EDD4 /* DetailViewController.m */; };
+		76FA544521D5EE000031EDD4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76FA544321D5EDFF0031EDD4 /* DetailViewController.xib */; };
+		76FA545121D5EE7F0031EDD4 /* FFRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA544921D5EE7F0031EDD4 /* FFRouter.m */; };
+		76FA545221D5EE7F0031EDD4 /* FFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA544B21D5EE7F0031EDD4 /* FFWebViewController.m */; };
+		76FA545321D5EE7F0031EDD4 /* FFURLPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA544D21D5EE7F0031EDD4 /* FFURLPath.m */; };
+		76FA545421D5EE7F0031EDD4 /* FFRouteList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76FA544F21D5EE7F0031EDD4 /* FFRouteList.plist */; };
+		76FA545521D5EE7F0031EDD4 /* FFRouteURLData.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA545021D5EE7F0031EDD4 /* FFRouteURLData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		76FA540421D5ED250031EDD4 /* FFRouteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFRouteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FA540721D5ED250031EDD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76FA540821D5ED250031EDD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		76FA540A21D5ED250031EDD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		76FA540B21D5ED250031EDD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		76FA540E21D5ED250031EDD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76FA541021D5ED260031EDD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76FA541321D5ED260031EDD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76FA541521D5ED260031EDD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76FA541621D5ED260031EDD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76FA541F21D5ED720031EDD4 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		76FA542021D5ED720031EDD4 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		76FA542121D5ED720031EDD4 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		76FA542221D5ED720031EDD4 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		76FA542321D5ED720031EDD4 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		76FA542421D5ED720031EDD4 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		76FA542521D5ED720031EDD4 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		76FA542621D5ED720031EDD4 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		76FA543721D5EDDB0031EDD4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		76FA543821D5EDDB0031EDD4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76FA543921D5EDDB0031EDD4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76FA543C21D5EDF10031EDD4 /* SecondeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondeVC.m; sourceTree = "<group>"; };
+		76FA543D21D5EDF10031EDD4 /* SecondeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondeVC.h; sourceTree = "<group>"; };
+		76FA543E21D5EDF10031EDD4 /* SecondeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondeVC.xib; sourceTree = "<group>"; };
+		76FA544121D5EDFF0031EDD4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		76FA544221D5EDFF0031EDD4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		76FA544321D5EDFF0031EDD4 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		76FA544821D5EE7F0031EDD4 /* FFURLPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFURLPath.h; sourceTree = "<group>"; };
+		76FA544921D5EE7F0031EDD4 /* FFRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRouter.m; sourceTree = "<group>"; };
+		76FA544A21D5EE7F0031EDD4 /* FFRouteURLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRouteURLData.h; sourceTree = "<group>"; };
+		76FA544B21D5EE7F0031EDD4 /* FFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFWebViewController.m; sourceTree = "<group>"; };
+		76FA544C21D5EE7F0031EDD4 /* FFRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRouter.h; sourceTree = "<group>"; };
+		76FA544D21D5EE7F0031EDD4 /* FFURLPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFURLPath.m; sourceTree = "<group>"; };
+		76FA544E21D5EE7F0031EDD4 /* FFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFWebViewController.h; sourceTree = "<group>"; };
+		76FA544F21D5EE7F0031EDD4 /* FFRouteList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FFRouteList.plist; sourceTree = "<group>"; };
+		76FA545021D5EE7F0031EDD4 /* FFRouteURLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRouteURLData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +94,56 @@
 		76FA540621D5ED250031EDD4 /* FFRouteDemo */ = {
 			isa = PBXGroup;
 			children = (
+				76FA541E21D5ED660031EDD4 /* FFRouter */,
+				76FA541D21D5ED5B0031EDD4 /* JSBridge */,
 				76FA540721D5ED250031EDD4 /* AppDelegate.h */,
 				76FA540821D5ED250031EDD4 /* AppDelegate.m */,
-				76FA540A21D5ED250031EDD4 /* ViewController.h */,
-				76FA540B21D5ED250031EDD4 /* ViewController.m */,
-				76FA540D21D5ED250031EDD4 /* Main.storyboard */,
+				76FA543721D5EDDB0031EDD4 /* Main.storyboard */,
+				76FA543821D5EDDB0031EDD4 /* ViewController.h */,
+				76FA543921D5EDDB0031EDD4 /* ViewController.m */,
+				76FA544121D5EDFF0031EDD4 /* DetailViewController.h */,
+				76FA544221D5EDFF0031EDD4 /* DetailViewController.m */,
+				76FA544321D5EDFF0031EDD4 /* DetailViewController.xib */,
+				76FA543D21D5EDF10031EDD4 /* SecondeVC.h */,
+				76FA543C21D5EDF10031EDD4 /* SecondeVC.m */,
+				76FA543E21D5EDF10031EDD4 /* SecondeVC.xib */,
 				76FA541021D5ED260031EDD4 /* Assets.xcassets */,
 				76FA541221D5ED260031EDD4 /* LaunchScreen.storyboard */,
 				76FA541521D5ED260031EDD4 /* Info.plist */,
 				76FA541621D5ED260031EDD4 /* main.m */,
 			);
 			path = FFRouteDemo;
+			sourceTree = "<group>";
+		};
+		76FA541D21D5ED5B0031EDD4 /* JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				76FA541F21D5ED720031EDD4 /* WebViewJavascriptBridgeBase.m */,
+				76FA542321D5ED720031EDD4 /* WKWebViewJavascriptBridge.m */,
+				76FA542521D5ED720031EDD4 /* WebViewJavascriptBridge.m */,
+				76FA542021D5ED720031EDD4 /* WebViewJavascriptBridge_JS.h */,
+				76FA542221D5ED720031EDD4 /* WebViewJavascriptBridgeBase.h */,
+				76FA542621D5ED720031EDD4 /* WebViewJavascriptBridge_JS.m */,
+				76FA542121D5ED720031EDD4 /* WebViewJavascriptBridge.h */,
+				76FA542421D5ED720031EDD4 /* WKWebViewJavascriptBridge.h */,
+			);
+			path = JSBridge;
+			sourceTree = "<group>";
+		};
+		76FA541E21D5ED660031EDD4 /* FFRouter */ = {
+			isa = PBXGroup;
+			children = (
+				76FA544F21D5EE7F0031EDD4 /* FFRouteList.plist */,
+				76FA544C21D5EE7F0031EDD4 /* FFRouter.h */,
+				76FA544921D5EE7F0031EDD4 /* FFRouter.m */,
+				76FA544A21D5EE7F0031EDD4 /* FFRouteURLData.h */,
+				76FA545021D5EE7F0031EDD4 /* FFRouteURLData.m */,
+				76FA544821D5EE7F0031EDD4 /* FFURLPath.h */,
+				76FA544D21D5EE7F0031EDD4 /* FFURLPath.m */,
+				76FA544E21D5EE7F0031EDD4 /* FFWebViewController.h */,
+				76FA544B21D5EE7F0031EDD4 /* FFWebViewController.m */,
+			);
+			path = FFRouter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +203,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FA545421D5EE7F0031EDD4 /* FFRouteList.plist in Resources */,
+				76FA544021D5EDF10031EDD4 /* SecondeVC.xib in Resources */,
+				76FA543A21D5EDDB0031EDD4 /* Main.storyboard in Resources */,
+				76FA544521D5EE000031EDD4 /* DetailViewController.xib in Resources */,
 				76FA541421D5ED260031EDD4 /* LaunchScreen.storyboard in Resources */,
 				76FA541121D5ED260031EDD4 /* Assets.xcassets in Resources */,
-				76FA540F21D5ED250031EDD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +219,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76FA540C21D5ED250031EDD4 /* ViewController.m in Sources */,
+				76FA545121D5EE7F0031EDD4 /* FFRouter.m in Sources */,
+				76FA543F21D5EDF10031EDD4 /* SecondeVC.m in Sources */,
+				76FA545321D5EE7F0031EDD4 /* FFURLPath.m in Sources */,
+				76FA542721D5ED730031EDD4 /* WebViewJavascriptBridgeBase.m in Sources */,
+				76FA542921D5ED730031EDD4 /* WebViewJavascriptBridge.m in Sources */,
+				76FA542821D5ED730031EDD4 /* WKWebViewJavascriptBridge.m in Sources */,
+				76FA543B21D5EDDB0031EDD4 /* ViewController.m in Sources */,
+				76FA542A21D5ED730031EDD4 /* WebViewJavascriptBridge_JS.m in Sources */,
+				76FA544421D5EE000031EDD4 /* DetailViewController.m in Sources */,
 				76FA541721D5ED260031EDD4 /* main.m in Sources */,
+				76FA545221D5EE7F0031EDD4 /* FFWebViewController.m in Sources */,
+				76FA545521D5EE7F0031EDD4 /* FFRouteURLData.m in Sources */,
 				76FA540921D5ED250031EDD4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +238,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		76FA540D21D5ED250031EDD4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				76FA540E21D5ED250031EDD4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		76FA541221D5ED260031EDD4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,7 +367,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H928XCDSK5;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FFRouteDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +386,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H928XCDSK5;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FFRouteDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

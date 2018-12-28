@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondeVC.h
 //  FFRouterDemo
 //
 //  Created by 郑强飞 on 2018/12/27.
@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface SecondeVC : UIViewController
+
+@property (copy,nonatomic) NSString *contentString;
 
 @end
 
+NS_ASSUME_NONNULL_END
