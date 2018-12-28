@@ -78,8 +78,8 @@ UIViewController * _Nonnull y_controller(NSString *name){
 }
 
 //处理app间的通信、跳转等事件
-- (void)openUrl:(NSURL *)url withData:(NSDictionary *)data {
-    
+- (void)openUrl:(NSString *)urlString withData:(NSDictionary *)data {
+    NSURL *url = [NSURL URLWithString:urlString];
     // 1内部路由 FFRouterDemo://open/...
     if ([@"FFApp" isEqual: url.scheme]) {
         FFRouteURLData *urlData = [FFRouteURLData urlDataWithUrl:url];

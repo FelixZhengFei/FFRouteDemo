@@ -29,7 +29,7 @@
                           @"name":@"我的名字叫‘大神’",
                           @"callBack":block
                           };
-    [[FFRouter shared] openUrl:[NSURL URLWithString:@"FFApp://open/detail"] withData:dic];
+    [[FFRouter shared] openUrl:@"FFApp://open/detail" withData:dic];
 }
 
 //h5跳转路由
@@ -41,13 +41,13 @@
                           @"contentString":@"h5叫我打开这个页面的，‘大神’ ",
                           @"callBack":block
                           };
-    [[FFRouter shared] openUrl:[NSURL URLWithString:@"FFhttp://open/test/second"] withData:dic];
+    [[FFRouter shared] openUrl:@"FFhttp://open/test/second" withData:dic];
     
 }
 
 //纯网页
 - (IBAction)urlOpenPage2:(UIButton *)sender {
-    [[FFRouter shared] openUrl:[NSURL URLWithString:@"http://www.baidu.com"] withData:nil];
+    [[FFRouter shared] openUrl:@"http://www.baidu.com" withData:nil];
 }
 
 

@@ -26,6 +26,8 @@
 		76FA545321D5EE7F0031EDD4 /* FFURLPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA544D21D5EE7F0031EDD4 /* FFURLPath.m */; };
 		76FA545421D5EE7F0031EDD4 /* FFRouteList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76FA544F21D5EE7F0031EDD4 /* FFRouteList.plist */; };
 		76FA545521D5EE7F0031EDD4 /* FFRouteURLData.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA545021D5EE7F0031EDD4 /* FFRouteURLData.m */; };
+		76FA545921D5EFA00031EDD4 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FA545721D5EFA00031EDD4 /* FourViewController.m */; };
+		76FA545A21D5EFA00031EDD4 /* FourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76FA545821D5EFA00031EDD4 /* FourViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,9 @@
 		76FA544E21D5EE7F0031EDD4 /* FFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFWebViewController.h; sourceTree = "<group>"; };
 		76FA544F21D5EE7F0031EDD4 /* FFRouteList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FFRouteList.plist; sourceTree = "<group>"; };
 		76FA545021D5EE7F0031EDD4 /* FFRouteURLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRouteURLData.m; sourceTree = "<group>"; };
+		76FA545621D5EFA00031EDD4 /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		76FA545721D5EFA00031EDD4 /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		76FA545821D5EFA00031EDD4 /* FourViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 				76FA543D21D5EDF10031EDD4 /* SecondeVC.h */,
 				76FA543C21D5EDF10031EDD4 /* SecondeVC.m */,
 				76FA543E21D5EDF10031EDD4 /* SecondeVC.xib */,
+				76FA545621D5EFA00031EDD4 /* FourViewController.h */,
+				76FA545721D5EFA00031EDD4 /* FourViewController.m */,
+				76FA545821D5EFA00031EDD4 /* FourViewController.xib */,
 				76FA541021D5ED260031EDD4 /* Assets.xcassets */,
 				76FA541221D5ED260031EDD4 /* LaunchScreen.storyboard */,
 				76FA541521D5ED260031EDD4 /* Info.plist */,
@@ -203,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FA545A21D5EFA00031EDD4 /* FourViewController.xib in Resources */,
 				76FA545421D5EE7F0031EDD4 /* FFRouteList.plist in Resources */,
 				76FA544021D5EDF10031EDD4 /* SecondeVC.xib in Resources */,
 				76FA543A21D5EDDB0031EDD4 /* Main.storyboard in Resources */,
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FA545921D5EFA00031EDD4 /* FourViewController.m in Sources */,
 				76FA545121D5EE7F0031EDD4 /* FFRouter.m in Sources */,
 				76FA543F21D5EDF10031EDD4 /* SecondeVC.m in Sources */,
 				76FA545321D5EE7F0031EDD4 /* FFURLPath.m in Sources */,

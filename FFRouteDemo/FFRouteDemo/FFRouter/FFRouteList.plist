@@ -8,5 +8,11 @@
 		<key>VCName</key>
 		<string>DetailViewController</string>
 	</dict>
+	<dict>
+		<key>path</key>
+		<string>four</string>
+		<key>VCName</key>
+		<string>FourViewController</string>
+	</dict>
 </array>
 </plist>

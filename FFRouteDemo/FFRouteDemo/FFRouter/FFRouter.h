@@ -15,7 +15,6 @@
 @interface FFRouter : NSObject
 + (instancetype)shared;
 + (void)start;
-- (void)openUrl:(NSURL *)url withData:(NSDictionary *)data;
-
+- (void)openUrl:(NSString *)urlString withData:(NSDictionary *)data;
 @end
 

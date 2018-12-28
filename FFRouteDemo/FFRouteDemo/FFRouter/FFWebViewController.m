@@ -116,9 +116,6 @@
 
 // 根据WebView对于即将跳转的HTTP请求头信息和相关信息来决定是否跳转
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
-    
-    NSString * urlStr = navigationAction.request.URL.absoluteString;
-    NSLog(@"发送跳转请求：%@",urlStr);
     decisionHandler(WKNavigationActionPolicyAllow);
 }
 
@@ -213,8 +210,6 @@
     
     if ([keyPath isEqualToString:NSStringFromSelector(@selector(estimatedProgress))]
         && object == _webView) {
-        
-        NSLog(@"网页加载进度 = %f",_webView.estimatedProgress);
         self.progressView.progress = _webView.estimatedProgress;
         if (_webView.estimatedProgress >= 1.0f) {
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{

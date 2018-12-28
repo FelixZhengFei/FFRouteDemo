@@ -24,7 +24,7 @@
         NSDictionary *dic = @{
                               @"contentString":@"‘大神’ 还是那么6"
                               };
-        [[FFRouter shared] openUrl:[NSURL URLWithString:@"FFApp://open/second"] withData:dic];
+        [[FFRouter shared] openUrl:@"FFApp://open/second" withData:dic];
     }
 }
 

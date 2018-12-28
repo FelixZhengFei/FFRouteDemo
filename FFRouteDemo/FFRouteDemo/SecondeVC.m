@@ -26,4 +26,8 @@
     self.contectLabel.text = self.contentString;
 }
 
+- (IBAction)pushToFour:(id)sender {
+    [[FFRouter shared] openUrl:@"FFApp://open/four" withData:nil];
+}
+
 @end
